@@ -49,5 +49,60 @@ A mobile application built using **React Native** and **ASP.NET Core Web API** t
 
 ---
 
-## 📁 Folder Structure (to be added soon)
-
+## 📁 Folder Structure
+/women-safety-app
+├── /backend
+│   ├── WomenSafetyApp.API
+│   │   ├── Controllers
+│   │   │   └── AuthController.cs
+│   │   ├── Models
+│   │   │   ├── Auth
+│   │   │   │   ├── LoginRequest.cs
+│   │   │   │   ├── LoginResponse.cs
+│   │   │   │   └── UserDto.cs
+│   │   │   └── User.cs
+│   │   ├── Services
+│   │   │   ├── Interfaces
+│   │   │   │   └── IAuthService.cs
+│   │   │   └── AuthService.cs
+│   │   ├── appsettings.json
+│   │   └── Program.cs
+│   ├── WomenSafetyApp.BLL
+│   │   └── Auth
+│   │       ├── Interfaces
+│   │       │   └── IAuthManager.cs
+│   │       └── AuthManager.cs
+│   ├── WomenSafetyApp.DAL
+│   │   ├── Data
+│   │   │   └── AppDbContext.cs
+│   │   ├── Models
+│   │   │   └── User.cs
+│   │   ├── Repositories
+│   │   │   ├── Interfaces
+│   │   │   │   └── IUserRepository.cs
+│   │   │   └── UserRepository.cs
+│   │   └── Migrations
+│   └── WomenSafetyApp.sln
+├── /frontend
+│   ├── /src
+│   │   ├── /assets
+│   │   │   ├── /images
+│   │   │   └── /fonts
+│   │   ├── /components
+│   │   │   └── CustomButton.js
+│   │   ├── /context
+│   │   │   └── AuthContext.js
+│   │   ├── /navigation
+│   │   │   └── AppNavigator.js
+│   │   ├── /screens
+│   │   │   ├── LoginScreen.js
+│   │   │   ├── HomeScreen.js
+│   │   │   └── SplashScreen.js
+│   │   ├── /services
+│   │   │   └── api.js
+│   │   ├── /theme
+│   │   │   └── colors.js
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+└── README.md
