@@ -40,8 +40,8 @@ A mobile application built using **React Native** and **ASP.NET Core Web API** t
 
 ## 📅 Current Status
 
-- [ ] Project Planning & Design
-- [ ] Initial Setup (Frontend + Backend)
+- [x] Project Planning & Design
+- [x] Initial Setup (Frontend + Backend)
 - [ ] Authentication Module
 - [ ] Emergency Functionality
 - [ ] Location Tracking
